@@ -1,0 +1,6 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: awesome-config-map
+data:
+  anEnvVar: AWESOME CONFIGS

@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: awesome-app
+spec:
+  containers:
+  - name: awesome-app
+    image: docker.io/vuza/awesome-app
+    imagePullPolicy: Always

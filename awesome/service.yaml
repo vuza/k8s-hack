@@ -1,0 +1,10 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: awesome-app
+spec:
+  ports:
+  - port: 3000
+    targetPort: 3000
+  selector:
+    app: awesome-app
